@@ -26,3 +26,23 @@ body {
 	width: 400px;
 	float: left;
 }
+
+/********************
+        ABOUT
+********************/
+#about .full-width {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-family: lora;
+	font-size: 36px;
+	color: #2b2b2b;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 40px;
+	padding-right: 50px;
+}
