@@ -1,0 +1,28 @@
+/*******************
+    BASE STYLES
+*******************/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+/********************
+        GRID
+********************/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
