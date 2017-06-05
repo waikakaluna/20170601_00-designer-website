@@ -31,6 +31,55 @@ body {
 
 
 /********************
+        HEADER
+********************/
+header {
+	height: 800px;
+	background: url("../img/hero.png");
+	background-size: cover;
+}
+
+header h1 {
+	padding: 50px 0;
+	font-family: "Lora", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #BBC085;
+}
+
+nav {
+	float: right;
+	padding: 75px 40px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #828282;
+	padding-left: 80px;
+}
+
+header h2 {
+	width: ;
+	clear: both;
+	font-family: "Lora", sans-serif;
+	font-size: 72px;
+	line-height: 80px;
+	color: #9B9B9B ;
+	padding: 20px 0;
+}
+
+header h2 span {
+	color: #2B2B2B;
+}
+
+
+/********************
         ABOUT
 ********************/
 #about .full-width {
@@ -72,6 +121,7 @@ body {
 	font-size: 24px;
 	width: 190px;
 	margin: 0 auto;
+	color: #2B2B2B;
 }
 
 #work p {
